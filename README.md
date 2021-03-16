@@ -1,7 +1,18 @@
-# Starbucks offer prediction
+# Starbucks offer prediction - Udacity Capstone Project
 
 Udacity Data Scientist Nanodegree Capstone Project.
 Overview
+
+This is the capstone project for Udacity Data Science Nanodegree. Three simulated datasets were provided by Starbucks that were meant to evaluate the algorithm and not to mimic the behavior of real customers. The goal of project is open to be defined by students. For the purposes of this project, I defined three main goals:
+
+1. study the impact of demographic factors and offer characteristics on the customer’s response to an offer.
+2. build different models for predicting the user response to offer
+3. to evaluate the accuracy, precision, recall, and F1 value of these models
+
+# Project Results
+The results showed differences across gender, income, and age lines in the completion rates. In the second part of this article, I trained and evaluated three classification models for predicting the offer response rate. Gradient Boost and SVC showed an accuracy of 77% while Random Forest had a lower accuracy rate of 73%. In terms of precision, Gradient Boost showed the highest level (74%) while the other two algorithms resulted in a 72% precision. Finally, both SVC and Gradient Boost showed an F1-score of 0.79 while Random Forest had an F1-score of 0.74.
+
+Please find the main results in the following Medium post:
 
 # Installation
 This code runs with Python version 3. Libraries needed for running the code are:
@@ -14,17 +25,6 @@ This code runs with Python version 3. Libraries needed for running the code are:
 7. tqdm
 8. math
 
-You will also need to download Airbnb's boston listing dataset and put in specific folders. You can find the data to download from the link below. 
-
-https://www.kaggle.com/airbnb/boston
-
-# Project Motivation
-The reason for analyzing this dataset was to answer the following questions: 
-
-1. Which neighborhoods in the city of Boston have the highest number of listings in the city of Boston?
-2. Which neighborhoods are rated the highest for their location in the city of Boston?
-3. Which vibe qualities are positively negatively correlated with higher review scores location?
-
 # File Description
 airbnb_review_analysis.ipynb:
 Notebook containing the data analysis.
@@ -32,10 +32,6 @@ Notebook containing the data analysis.
 listings_boston.csv:
 Dataset with the Airbnb listings in the city of Boston
 
-# Results
-Please find the main results in the following Medium post:
-
-https://bit.ly/3iFEaOK
-
 # Licensing, Authors, Acknowledgements
-Must give credit to Airbnb for the data. 
+* Dataset was provided by Starbucks.
+* 
