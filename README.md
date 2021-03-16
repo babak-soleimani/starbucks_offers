@@ -1,4 +1,4 @@
-# Starbucks offer prediction - Udacity Capstone Project
+# Starbucks Offer Prediction - Udacity Capstone Project
 
 Udacity Data Scientist Nanodegree Capstone Project.
 Overview
