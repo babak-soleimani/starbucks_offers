@@ -12,7 +12,7 @@ This is the capstone project for Udacity Data Science Nanodegree. Three simulate
 # Project Results
 The results showed differences across gender, income, and age lines in the completion rates. In the second part of this article, I trained and evaluated three classification models for predicting the offer response rate. Gradient Boost and SVC showed an accuracy of 77% while Random Forest had a lower accuracy rate of 73%. In terms of precision, Gradient Boost showed the highest level (74%) while the other two algorithms resulted in a 72% precision. Finally, both SVC and Gradient Boost showed an F1-score of 0.79 while Random Forest had an F1-score of 0.74.
 
-Please find the main results in this [Medium post](https://babaksoleimani.medium.com/youve-got-an-offer-modeling-the-response-to-starbucks-offers-e6a1b6e18b89/):
+Please find the main results in this [Medium post](https://babaksoleimani.medium.com/youve-got-an-offer-modeling-the-response-to-starbucks-offers-e6a1b6e18b89/).
 
 # Installation
 This code runs with Python version 3. Libraries needed for running the code are:
