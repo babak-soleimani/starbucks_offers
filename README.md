@@ -39,7 +39,7 @@ This code runs with Python version 3. Libraries needed for running the code are:
 |
 ├── README.md
 |
-├── Starbucks_Capstone_notebook.ipynb 
+└── Starbucks_Capstone_notebook.ipynb 
 ```
 Dataset folder includes files provided by Starbucks for this project.
 
