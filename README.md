@@ -12,7 +12,7 @@ This is the capstone project for Udacity Data Science Nanodegree. Three simulate
 # Project Results
 The results showed differences across gender, income, and age lines in the completion rates. In the second part of this article, I trained and evaluated three classification models for predicting the offer response rate. Gradient Boost and SVC showed an accuracy of 77% while Random Forest had a lower accuracy rate of 73%. In terms of precision, Gradient Boost showed the highest level (74%) while the other two algorithms resulted in a 72% precision. Finally, both SVC and Gradient Boost showed an F1-score of 0.79 while Random Forest had an F1-score of 0.74.
 
-Please find the main results in the following Medium post:
+Please find the main results in this [Medium post](https://babaksoleimani.medium.com/youve-got-an-offer-modeling-the-response-to-starbucks-offers-e6a1b6e18b89/):
 
 # Installation
 This code runs with Python version 3. Libraries needed for running the code are:
@@ -26,12 +26,24 @@ This code runs with Python version 3. Libraries needed for running the code are:
 8. math
 
 # File Description
-airbnb_review_analysis.ipynb:
-Notebook containing the data analysis.
+```
+├── datasets          
+|    ├── portfolio.json
+|    ├── profile.json
+|    └──transcript.json
+|
+├── pickle files          
+|    ├── customer_offer_df.pkl
+|    ├── customer_offer_df_ready_for_ml.pkl
+|    └──transcript.json
+|
+├── README.md
+|
+├── Starbucks_Capstone_notebook.ipynb 
+```
+Dataset folder includes files provided by Starbucks for this project.
 
-listings_boston.csv:
-Dataset with the Airbnb listings in the city of Boston
+Pickle folder includes pre-processed data saved in the Pandas dataframe format. 
 
 # Licensing, Authors, Acknowledgements
 * Dataset was provided by Starbucks.
-* 
