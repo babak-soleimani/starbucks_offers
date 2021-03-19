@@ -14,6 +14,8 @@ The results showed differences across gender, income, and age lines in the compl
 
 Please find the main results in this [Medium post](https://babaksoleimani.medium.com/youve-got-an-offer-modeling-the-response-to-starbucks-offers-e6a1b6e18b89/).
 
+The code and data used in this project can be found in [GitHub](https://github.com/babak-soleimani/starbucks_offers).
+
 # Installation
 This code runs with Python version 3. Libraries needed for running the code are:
 1. scikit Learn
